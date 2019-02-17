@@ -10,7 +10,7 @@ def reformat_languages(languages)
       arr << category
         attributes[:style] = arr
       else
-        attributes[:style] << category
+        new_hash[:name][:style] << category
         end
       end
     end
